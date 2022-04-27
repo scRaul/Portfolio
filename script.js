@@ -19,7 +19,7 @@ projects.push( new Project("proj","Project3","https://github.com/Raul-Sc/project
 projects.push( new Project("cg","About 3D Computer Graphics","https://hw2-computer-graphics-1.raulramirez7.repl.co/","cg.png"));
 projects.push( new Project("rest","Resturant","https://replit.com/@RaulRamirez7/RestuarantProject#index.js","rest.png"));
 projects.push( new Project("solar","Solar System","https://scraul.github.io/SolarSystem/","ssystem.png"));
-projects.push( new Project("poke","Pokedex","https://pokemon-api.raulramirez7.repl.co/","pokedex.png"));
+projects.push( new Project("poke","Pokedex","https://pokemon-api.raulramirez7.repl.co/","poke.png"));
 projects.push( new Project("points","Point Distribution","https://scraul.github.io/PointDistributions/","points.png"));
 projects.push( new Project("pong","Pong","https://gamedev-pong.raulramirez7.repl.co/","pong.png"));
 projects.push( new Project("tut","Game Dev. Tutorials","https://tutorialgamedev.raulramirez7.repl.co/","tut.png"));
