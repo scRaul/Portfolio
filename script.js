@@ -26,7 +26,7 @@ for(let i = 0; i < projects.length;i++)
 projects[index.sort].description = "A visual representation of how quicksort and insertion sort differ";
 projects[index.pong].description = "Recreation of pong using HTML5, CSS and JS";
 projects[index.solar].description = "Final Project for Computer Graphics Course";
-projects[index.poke].description = "Web app for seach up pokemon by name, fetches data fromu pokeapi.co";
+projects[index.poke].description = "Web app for seaching up pokemon by name, fetches data fromu pokeapi.co";
 projects[index.points].description = "Visualize how to points are distributed on a plane using various functions";
 projects[index.rest].description = "This was a final group project,using node,express, and mySql stack";
 
