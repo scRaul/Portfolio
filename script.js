@@ -12,6 +12,7 @@ function Project(id,title,link,image="",description="",){
 var index = {};
 var projects = [];
 
+projects.push( new Project("sort","Sorting Algorithms Animated","https://scraul.github.io/SortingProject/","sort.png"));
 projects.push( new Project("pong","Pong","https://gamedev-pong.raulramirez7.repl.co/","pong.png"));
 projects.push( new Project("solar","Solar System","https://scraul.github.io/SolarSystem/","SolarSystem.png"));
 projects.push( new Project("poke","Pokedex","https://pokemon-api.raulramirez7.repl.co/","Pokedex.png"));
@@ -22,6 +23,7 @@ projects.push( new Project("tut","Game Dev. Tutorials","https://tutorialgamedev.
 for(let i = 0; i < projects.length;i++)
     index[(projects[i].id)] = i;
 
+projects[index.sort].description = "A visual representation of how quicksort and insertion sort differ";
 projects[index.pong].description = "Recreation of pong using HTML5, CSS and JS";
 projects[index.solar].description = "Final Project for Computer Graphics Course";
 projects[index.poke].description = "Web app for seach up pokemon by name, fetches data fromu pokeapi.co";
