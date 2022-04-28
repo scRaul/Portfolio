@@ -29,3 +29,6 @@ body{
     width: 100%;
     border-bottom: 1px solid black;
   }
+  .note{
+    padding-left: 5px;
+  }
