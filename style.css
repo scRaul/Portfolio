@@ -3,32 +3,42 @@ body{
     padding: 0px;
     overflow-x:hidden;
     background-color: #1f211f;
-  }
-  #content{
-    position: relative;
-    margin-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: center;
-    width:90%; 
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-  .card{
-    margin: 5px;
-    max-width: 400px;
-    background-color:lightcyan;
-    border: 1px solid #1f211f;
-  }
-  .card:hover{
-  box-shadow: 10px 5px 5px black;
-    max-width: 420px;
-  }
-  .image{
-    width: 100%;
-    border-bottom: 1px solid black;
-  }
-  .note{
-    padding-left: 5px;
-  }
+}
+header{
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+h1{
+  color: white;
+
+
+}
+#content{
+  position: relative;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  width:90%; 
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.card{
+  margin: 5px;
+  max-width: 400px;
+  background-color:lightcyan;
+  border: 1px solid #1f211f;
+}
+.card:hover{
+box-shadow: 10px 5px 5px black;
+  max-width: 420px;
+}
+.image{
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+.note{
+  padding-left: 5px;
+}
