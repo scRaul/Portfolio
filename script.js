@@ -35,7 +35,7 @@ projects[index.cg].description = "A very breif overview on making 3D graphics us
 projects[index.pong].description = "Recreation of pong using HTML5, CSS and JS";
 projects[index.solar].description = "Final Project for Computer Graphics Course";
 projects[index.poke].description = "Web app for seaching up pokemon by name, fetches data fromu pokeapi.co";
-projects[index.points].description = "Visualize how to points are distributed on a plane using various functions";
+projects[index.points].description = "visuallize how to distribute points accross a plain using various functions.";
 projects[index.rest].description = "This was a final group project,using node,express, and mySql stack";
 
 projects[index.tut].description = "Tutorials on how to implement video game concepts, from getting started";
