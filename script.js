@@ -11,7 +11,7 @@ function Project(id,title,link,image="",description="",){
 
 var index = {};
 var projects = [];
-
+projects.push(new Project("particle","Particle Collision Simulator","https://github.com/scRaul/ParticleSIm","ppm.png"));
 projects.push( new Project("sort","Sorting Algorithms Animated","https://scraul.github.io/SortingProject/","sort.png"));
 projects.push( new Project("connect","Connect","https://github.com/scRaul/Connect","connect.png"));
 projects.push( new Project("crossy","Crossy Shooting","https://github.com/scRaul/CrossyShooting","crossy.png"));
@@ -26,7 +26,8 @@ projects.push( new Project("tut","Game Dev. Tutorials","https://tutorialgamedev.
 
 for(let i = 0; i < projects.length;i++)
     index[(projects[i].id)] = i;
-
+    
+projects[index.particle].description = "C++ brute force solution to building a particle collision simulation";
 projects[index.sort].description = "A visual representation of how quicksort and insertion sort differ";
 projects[index.connect].description ="C++ terminal game, goal to connect user specified slots in a row.";
 projects[index.crossy].description = "Unity built game, endless runner but with armed chickens";
@@ -46,8 +47,8 @@ projects.forEach( proj =>{
     newProj.className = "card";
     newProj.id = proj.id;
     newProj.innerHTML = `
-    <div class='note'>\n
         <img class='image' src=img/${proj.image}>\n
+     <div class='note'>\n
         <h4> ${proj.ttile} </h4> \n
         <p> ${proj.description} </p>\n
     </div>
